@@ -57,7 +57,7 @@ Arrastramos y soltamos el control "Input Field" debajo del texto y escribimos lo
 
 Clave | Valor
 ---|---
- label:| `¿Qué deseas buscar?`
+ Label:| `¿Qué deseas buscar?`
  Placeholder Text:| `Escribe aquí`
  
 
@@ -69,7 +69,7 @@ Clave | Valor
 Realizamos la creación de las variables de la aplicación:
 ![SJP APP](/demo/docs/assets/image6.png)
 
-Click en "ADD APP VARIABLE" y creamos 4 variables de Aplicación:  `APP VARIABLE`
+Click en `ADD APP VARIABLE` y creamos 4 variables de Aplicación:  
 ![SJP APP](/demo/docs/assets/image7.png)
 
 Creamos las siguientes 4 variables
@@ -95,7 +95,7 @@ Clave | Valor
  Variable Value:| `text`
  
 
- 
+ Debería quedar de la siguiente manera:
 ![SJP APP](/demo/docs/assets/image8.png)
 
 Regresamos al modo de Edición
@@ -108,10 +108,10 @@ Arrastramos y solamos un control de tipo `Button` y escribimos `Buscar`:
 
 Arrastramos un control de tipo `Title` 
 ![SJP APP](/demo/docs/assets/image11.png)
-escribimos `Resultados:`
+escribimos el texto: `Resultados:`
 ![SJP APP](/demo/docs/assets/image12.png)
 
-![SJP APP](/demo/docs/assets/image13.png)
+
 Arrastramos y soltamos un control de tipo `Large image list item`:
 ![SJP APP](/demo/docs/assets/image14.png)
 
@@ -202,79 +202,213 @@ Click en `Value` para mapear el valor escrito en el input:
 Click en `Data and Variables`
 ![SJP APP](/demo/docs/assets/image35.png)
 
-
+Click en `App variable`
 ![SJP APP](/demo/docs/assets/image36.png)
+
+Seleccionamos `search_query`
 ![SJP APP](/demo/docs/assets/image37.png)
+
+Click en `SAVE`
 ![SJP APP](/demo/docs/assets/image38.png)
-![SJP APP](/demo/docs/assets/image39.png)
+
+
+## Paso 6: Configuración de la llamada al API:
+
+Seleccionamos el botón de búsqueda:
 ![SJP APP](/demo/docs/assets/image40.png)
+
+Click en `Add logic to BUTTON1`:
 ![SJP APP](/demo/docs/assets/image41.png)
+
+Arrastrar y soltar la lógica `Get record collection`:
 ![SJP APP](/demo/docs/assets/image42.png)
-![SJP APP](/demo/docs/assets/image43.png)
+
+Enlazar el evento `Compenent tap` a la lóogica `Get record collection`:
 ![SJP APP](/demo/docs/assets/image44.png)
+
+Seleccionamos `Get record collection`:
 ![SJP APP](/demo/docs/assets/image45.png)
+
+Click en `busqueda_nasa`:
 ![SJP APP](/demo/docs/assets/image46.png)
+
+Click en `Save`
 ![SJP APP](/demo/docs/assets/image47.png)
+
+Click en `query` tal como muestra la imágen:
 ![SJP APP](/demo/docs/assets/image48.png)
-![SJP APP](/demo/docs/assets/image49.png)
+
+Click en el tile: `Data and Variables`
 ![SJP APP](/demo/docs/assets/image50.png)
+
+Click en el tile `App variable`:
 ![SJP APP](/demo/docs/assets/image51.png)
+
+Seleccionamos la variable: `search_query`:
 ![SJP APP](/demo/docs/assets/image52.png)
+
+Click en el botón `SAVE`:
 ![SJP APP](/demo/docs/assets/image53.png)
+
+Click en `Variables`
 ![SJP APP](/demo/docs/assets/image54.png)
-![SJP APP](/demo/docs/assets/image55.png)
+
+
+
+Click en `DATA VARIABLES`:
 ![SJP APP](/demo/docs/assets/image56.png)
+
+Click en `ADD DATA VARIABLE`:
 ![SJP APP](/demo/docs/assets/image57.png)
+
+Click en `busqueda_nasa`:
 ![SJP APP](/demo/docs/assets/image58.png)
+
+Debería quedar creada la variable de la siguiente manera:
 ![SJP APP](/demo/docs/assets/image59.png)
+
+Regresamos al modo edición:
 ![SJP APP](/demo/docs/assets/image60.png)
-![SJP APP](/demo/docs/assets/image61.png)
+
+
+Seleccionamos el botón `Buscar`:
 ![SJP APP](/demo/docs/assets/image62.png)
+
+Abrimos el panel de lógica del botón:
 ![SJP APP](/demo/docs/assets/image63.png)
+
+Arrastramos la lógica `Set data variable` al panel de edición:
 ![SJP APP](/demo/docs/assets/image64.png)
+
+Debería queda de la siguiente manera:
 ![SJP APP](/demo/docs/assets/image65.png)
+
+Conectamos la salida superior del control `Get record collection` a la lógica `Set data variable`:
 ![SJP APP](/demo/docs/assets/image66.png)
+
+Seleccionamos la lógica `Set data variable`:
 ![SJP APP](/demo/docs/assets/image67.png)
+
+Damos click en `Data variable name` según la imagen:
 ![SJP APP](/demo/docs/assets/image68.png)
+
+Click en el tile: `Data variable`:
 ![SJP APP](/demo/docs/assets/image69.png)
+
+Seleccionar `busqueda_nasa1`:
 ![SJP APP](/demo/docs/assets/image70.png)
+
+
+Guardamos los cambios:
 ![SJP APP](/demo/docs/assets/image71.png)
+
+Click en `Record collection` según la imagen:
 ![SJP APP](/demo/docs/assets/image72.png)
+
+Click en el tile: `Output value of another node`: 
 ![SJP APP](/demo/docs/assets/image73.png)
+
+Seleccionar `Get record collection`:
 ![SJP APP](/demo/docs/assets/image74.png)
+
+Seleccionar la opción: `Get record collection/Collection of records` y guardar cambios:
 ![SJP APP](/demo/docs/assets/image75.png)
-![SJP APP](/demo/docs/assets/image76.png)
+
+Seleccionar el control de galería:
 ![SJP APP](/demo/docs/assets/image77.png)
+
+Click en `Repeat with`:
 ![SJP APP](/demo/docs/assets/image78.png)
-![SJP APP](/demo/docs/assets/image79.png)
+
+
+Click en `Data and Variables`:
 ![SJP APP](/demo/docs/assets/image80.png)
+
+Seleccionar `Data variable`:
 ![SJP APP](/demo/docs/assets/image81.png)
+
+Seleccionamos `busqueda_nasas1`:
 ![SJP APP](/demo/docs/assets/image82.png)
+
+Guardamos cambios:
 ![SJP APP](/demo/docs/assets/image83.png)
-![SJP APP](/demo/docs/assets/image84.png)
+
+Seleccionamos el primer item de la lista y damos click en `Image source` según la imagen:
 ![SJP APP](/demo/docs/assets/image85.png)
+
+Seleccionamos el tile `Formula`:
 ![SJP APP](/demo/docs/assets/image86.png)
+
+Damos click a la fórmula:
 ![SJP APP](/demo/docs/assets/image87.png)
+
+
+Click en `Currently repeated data items`:
 ![SJP APP](/demo/docs/assets/image88.png)
+
+Seleccionamos la opción: `repeated.current.links` y damos docle click:
 ![SJP APP](/demo/docs/assets/image89.png)
+
+
+La fórmula debería qeudar de la siguiente manera:
 ![SJP APP](/demo/docs/assets/image90.png)
+
+Guardamos cambios:
 ![SJP APP](/demo/docs/assets/image91.png)
+
+Guardamos cambios de la fórmula:
 ![SJP APP](/demo/docs/assets/image92.png)
+
+Click en `Title label`:
 ![SJP APP](/demo/docs/assets/image93.png)
+
+Click en el tile: `Formula`:
 ![SJP APP](/demo/docs/assets/image94.png)
+
+Seleccionamos la fórmula:
 ![SJP APP](/demo/docs/assets/image95.png)
+
+Eliminamos el texto actual:
 ![SJP APP](/demo/docs/assets/image96.png)
+
+
+Click en `Currently repeated data items`:
 ![SJP APP](/demo/docs/assets/image97.png)
+
+Seleccionamos  `repeated.current.data[0].title`:
 ![SJP APP](/demo/docs/assets/image98.png)
+
+Guardamos cambios:
 ![SJP APP](/demo/docs/assets/image99.png)
+
+Guardamos cambios:
 ![SJP APP](/demo/docs/assets/image100.png)
+
+Click en `Description test`:
 ![SJP APP](/demo/docs/assets/image101.png)
+
+Seleccionamos el tile `Formula`:
 ![SJP APP](/demo/docs/assets/image102.png)
+
+Seleccionamos el campo `Formula`:
 ![SJP APP](/demo/docs/assets/image103.png)
+
+Eliminamos el contenido actual:
 ![SJP APP](/demo/docs/assets/image104.png)
+
+Seleccionamos `Currently repeated data items` y luego seleccionar: `repeated.current.data[0].description`:
 ![SJP APP](/demo/docs/assets/image105.png)
+
+La fórmula debería quedar de la siguiente manera:
 ![SJP APP](/demo/docs/assets/image106.png)
+
+Guardamos cambios:
 ![SJP APP](/demo/docs/assets/image107.png)
+
+Guardamos cambios:
 ![SJP APP](/demo/docs/assets/image108.png)
+
+Guardamos cambios para todo el proyecto:
 ![SJP APP](/demo/docs/assets/image109.png)
+
 
