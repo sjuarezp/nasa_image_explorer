@@ -412,3 +412,22 @@ Guardamos cambios para todo el proyecto:
 ![SJP APP](/demo/docs/assets/image109.png)
 
 
+Finalmente vamos al menu `LAUNCH`
+![SJP APP](/demo/docs/assets/image110.png)
+
+
+Click en `OPEN APP PREVIW PORTAL`:
+![SJP APP](/demo/docs/assets/image111.png)
+
+
+
+Visualización en  `APP PREVIEW PORTAL`:
+![SJP APP](/demo/docs/assets/image112.png)
+
+
+
+
+Visualización en  `APP PREVIEW MOBILE`:
+![SJP APP](/demo/docs/assets/image113.png)
+
+
