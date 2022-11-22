@@ -1,7 +1,7 @@
 
 # NASA Explorer
 
-Proyecto demo para el Hackathon TECSUP 2022
+Proyecto demo para la "Semana de Innovación" VOTORANTIM 2022
 
 ## URL Guía:
 https://github.com/sjuarezp/nasa_image_explorer
