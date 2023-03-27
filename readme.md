@@ -1,7 +1,7 @@
 
 # NASA Explorer
 
-Proyecto demo para la "Semana de Innovación" VOTORANTIM 2022
+App Guía para SAP Build Apps
 
 ## URL Guía:
 https://github.com/sjuarezp/nasa_image_explorer
