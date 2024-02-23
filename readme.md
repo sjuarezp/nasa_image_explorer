@@ -433,6 +433,6 @@ Visualización en  `APP PREVIEW PORTAL`:
 
 
 Visualización en  `APP PREVIEW MOBILE`:
-![SJP APP](/demo/docs/assets/image113.png)
+![SJP APP](/demo/docs/assets/image113.PNG)
 
 
